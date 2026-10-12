@@ -1,0 +1,10 @@
+{
+  "name": "rasmusicals-agora-room",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agora RTC room embedded in Wix, with server-side token generation",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": { "agora-token": "^2.0.7", "express": "^4.21.2" }
+}
